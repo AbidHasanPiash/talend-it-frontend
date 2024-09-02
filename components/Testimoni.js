@@ -57,7 +57,7 @@ const Testimoni = ({
         </a>
       );
     },
-    dotsClass: "slick-dots w-max absolute mt-20  ",
+    dotsClass: "slick-dots w-max absolute -bottom-10",
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -128,13 +128,13 @@ const Testimoni = ({
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            {/* <ArrowBack className="h-6 w-6 " /> */}
+            <img src="/assets/Icon/eva_arrow-back-fill.svg" alt="" />
           </div>
           <div
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            {/* <ArrowNext className="h-6 w-6" /> */}
+            <img src="/assets/Icon/eva_arrow-next-fill.svg" alt="" />
           </div>
         </div>
       </div>
